@@ -167,11 +167,11 @@ form{
     padding: 12px 24px;
     background: #00FF00;
     border: 2px solid #00FF00;
-    color: #fff;
+    color: #FFF;
 }
 .contact-submit:hover{
-    background: #00FF00;
-    color: #fff;
+    background: #fff;
+    color: #00FF00;
 }
 @media (max-width: 640px){
     .contact-title{
