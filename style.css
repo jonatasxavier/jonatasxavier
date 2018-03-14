@@ -5,7 +5,7 @@
     text-shadow: 0px 2px 10px #151515;
     color: #2E2E2E;
     font-family: 'Anton', sans-serif;
-    font-size: 20px;    
+    font-size: 20px;   
 }
 #hpro{
 	/*padding: 1px;*/
@@ -39,8 +39,8 @@ p{
     border-radius: 100%;
 }
 body {
-	background: #151515;
-	margin: 0;
+    	background: #151515;
+    	margin: 0;
 }
 *{
 	padding: 0px;
@@ -129,7 +129,6 @@ h4{
 }
 .contact{
     padding: 5px;
-    height: 84vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
