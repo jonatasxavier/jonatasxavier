@@ -24,12 +24,24 @@ header{
     font-family: 'Dancing Script', cursive;
     font-size: 30px;   
 }
+.divimg{
+    margin:0;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .container {
-    width: 80%;
-    padding: 40px;
+    width: 300PX;
+    padding: 20px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 p{
     width: 90%;
@@ -43,13 +55,15 @@ p{
     }
 }
 .ImgHeader{
-    width: 35%;
+    width: 20%;
     padding: 0px;
     background-color: #4F4F4E;
-    margin: 10px;
+    margin: 25px;
     border-style: solid;
     border-color: #4F4F4E;
-    border-radius: 100%;
+    border-radius: 50%;
+    position: relative;
+    left: 34%;
 }
 *{
 	padding: 0px;
@@ -66,7 +80,9 @@ p{
  .rede{
   	width: 100px;
     height:100px;
-	float: left; 
+	float: left;
+    padding: 0;
+    margin: 20px;
 	margin-left: 20px;  
     transition: all 0.4s ease-out;
     border-radius: 50%;
@@ -83,31 +99,16 @@ p{
     background-color: #3f7292;
 }
 .rede#twitter{
- 	background-color: #0084b4;
+    background-color: #0084b4;
 }
 .rede#github{
     background-color: #F2F2F2;
-}
-.rede#Whatsapp{
-    background-color: #31B404;
-}
-.rede#Email{
-    background-color: #2E9AFE;
 }
 .icone{
     margin: 0px auto;
 	padding: 35px;
 	width: 30px;
 }
-/*h2{*/
-    /*display: flex;*/
-    /*justify-content: center; */
-    /*color: #FAFAFA;*/
-    /*font-family: 'Herr Von Muellerhoff', cursive;*/
-    /*font-size: 30px;*/
-    /*padding: 5px;*/
-    /*margin: 10px;*/
-/*}	*/
 ul {
     list-style-type: none;
     margin: 0;
