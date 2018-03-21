@@ -1,23 +1,21 @@
 body{
-    background: #151515;
-    margin: 0;   
+    background: url("https://vitorcarvalho.ninja/wp-content/uploads/2016/05/webdesign-wordpress.png") no-repeat;
+    width: 100%;   
 }
 header{
     width: 100%;
 }
 .inset{
     padding: 5px;
-    background: #1C1C1C;
     text-align: center;
     text-shadow: 0px 2px 10px #151515;
-    color: #2E2E2E;
+    color: #A4A4A4;
     font-family: 'Anton', sans-serif;
     font-size: 20px;   
 }
 #hpro{
-    /*padding: 1px;*/
+    padding: 1px;
     margin: 5px;
-    background: #1C1C1C;
     text-align: center;
     text-shadow: 0px 2px 10px #151515;
     color: #555;
@@ -28,8 +26,11 @@ header{
     margin:0;
     padding: 5%;
     text-align: center;
+}
+main{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .container {
@@ -54,7 +55,7 @@ p{
         font-size: 15px;
     }
 }
-.ImgHeader{
+.Imagemjs{
     width: 20%;
     padding: 0px;
     background-color: #4F4F4E;
@@ -62,8 +63,6 @@ p{
     border-style: solid;
     border-color: #4F4F4E;
     border-radius: 50%;
-    position: relative;
-    left: 34%;
 }
 *{
 	padding: 0px;
@@ -114,7 +113,7 @@ ul {
     margin: 0;
     /*padding: 4px;*/
     overflow: hidden;
-    background-color: #333;
+    background-color: #fff;
     display: flex;
     justify-content: center;
 }
@@ -125,13 +124,13 @@ li {
 }
 li a {
     display: block;
-    color: white;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: #F2F2F2;
 }
 h4{
 	color: #555;
