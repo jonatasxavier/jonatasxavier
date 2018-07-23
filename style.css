@@ -1,10 +1,31 @@
 body{
-    background: url("https://vitorcarvalho.ninja/wp-content/uploads/2016/05/webdesign-wordpress.png") no-repeat;
+    background: url("code-wallpaper-18.png") no-repeat;
+    background-size: 100%;
+    background-color: red;
     width: 100%;   
 }
 header{
     width: 100%;
 }
+.submit{
+    padding-right: 50px;
+}
+.botão__header{
+    width: 128px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid #82CA9C;
+    color: #82CA9C;
+    background: #fff; 
+}
+
+
+
+
+
+
+
+   
 .inset{
     padding: 5px;
     text-align: center;
@@ -169,19 +190,21 @@ form{
     width: 60vw;
     padding: 12px;
     margin: 8px 0;
-    border: 2px solid #1C1C1C;
+    border: 2px solid #D8D8D8;
+    border-radius: 30px;
     box-sizing: border-box;
 }
 .contact-submit{
     margin: 16px 0;
     padding: 12px 24px;
-    background: #00FF00;
-    border: 2px solid #00FF00;
+    background: #298A08;
+    border: 2px solid #298A08;
     color: #FFF;
 }
 .contact-submit:hover{
-    background: #fff;
-    color: #00FF00;
+    background: #00FF00;
+    color: #fff;
+    border: 2px solid #00FF00;
 }
 @media (max-width: 640px){
     .contact-title{
